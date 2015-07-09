@@ -11,7 +11,7 @@
 }
 
 .jumbotron {
-  background-image:url('file:///Users/SALIII/Desktop/IOWA/stock.jpg');
+  background-image:url('../stock.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;

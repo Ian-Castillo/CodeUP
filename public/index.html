@@ -2,19 +2,20 @@
 <html>
 
   <head>   
+    <link rel="stlylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/skeleton.css">
+    <link rel="stylesheet" href="CSS/main.css">
 
-    <link rel="stylesheet" href="main.css">
-    
   </head>
 
   <body>
     <div class="nav">
       <div class="container">
         <ul>
-          <li><a href="#">Logo</a></li>
-          <li><a href="#">Top Contributors</a></li
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Top Contributors</a></li>
           <li><a href="#">Top Projects</a></li>
-          <li><a href="#">Login</a></li>
+          <li><a href="#">Donate</a></li>
         </ul>
       </div>
     </div>
@@ -30,31 +31,53 @@
 
     <div class="sign-up">
     <div class="container">
-    <div>
-        <div>
-      <h3>Top Contributors</h3>
-      <p>This is a paragraph where a list of the top five contributors will be shown.</p>
-      <p><a href="#">View more</a></p>
+      <div class="row">
+        <div class="six columns">
+          <h2>Top Contributors</h2>
+          <p>This is a paragraph where a list of the top five contributors will be shown.</p>
+          <p><a href="#">View more</a></p>
         </div>
-      <div>
-      <h3>Top Projects</h3>
-      <p>This paragraph will show the projects that have the most people contributing.</p>
-      <p><a href="#">View more</a></p>
-      </div>
-      
+        <div class ="six columns">
+          <h2>Top Projects</h2>
+          <p>This paragraph will show the projects that have the most people contributing.</p>
+         <p><a href="#">View more</a></p>
+        </div>
+     </div>
+   </div>
+        <!-- Below is my form for signups/registration?-->
+<form class="container">
+  <div class="row">
+    <div class="six columns">
+      <label for="exampleEmailInput"> Send CodeUpforCancer an email!</label>
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+    </div>
+    <div class="six columns">
+      <label for="exampleRecipientInput">Want to work on a project?</label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Have one in mind?</option>
+        <option value="Option 2">Need help looking?</option>
+        <option value="Option 3">Want to join our team?</option>
+      </select>
       </div>
     </div>
-  </div>
+
+  <label for="exampleMessage">Message</label>
+  <textarea class="u-full-width" placeholder="Hello World" id="exampleMessage"></textarea>
+  
+  <input class="button-primary" type="submit" value="Submit">
+</form>
+
+  
   </body>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> 
       <script src="main.js">
         </script>
         </script>
 
-  <footer>
+  <footer class="container">
   <div class="nav">
-  <ul class="pull-right">
-CodeUp 2015
+  <ul class="pull-left">
+  <p> CodeUpfor Cancer 2015 </p>
   </footer>
 
 </html>
