@@ -1,82 +1,125 @@
 <!DOCTYPE html>
 <html>
-
-  <head>   
-    <link rel="stlylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/skeleton.css">
-    <link rel="stylesheet" href="CSS/main.css">
-
-  </head>
-
   <body>
-    <div class="nav">
-      <div class="container">
-        <button type="button" class="btn btn-lg">HOME</button>
-        <button type="button" class="btn btn-lg">STORE</button>  
-        <button type="button" class="btn btn-lg">DONATE</button>  
-      </div>
-    </div>
-
-    <div class="jumbotron">
-      <div class="container">
-      <ul class="pull-right">
-        <h1>Help Cancer Awareness.</h1>
-        <p>The more you contribute to open source projects that help raise awareness, the more you help get donated.</p>
-        <button type="button" class="btn btn-lg">Get InvolvedS</button>  
-      </div>
-    </div> 
-
-    <div class="sign-up">
-      <div class="container">
-        <div class="row">
-          <div class="six columns">
-
-            <h2>Top Contributors</h2>
-             <p>This is a paragraph where a list of the top five contributors will be shown.</p>
-                  <button type="button" class="btn btn-lg">View More</button>  
-          </div>
-        <div class ="six columns">
-          <h2>Top Projects</h2>
-            <p>This paragraph will show the projects that have the most people contributing.</p>
-            <button type="button" class="btn btn-lg">View More</button>  
-
-        </div>
-     </div>
-   </div>
-        <!-- Below is my form for signups/registration?-->
-<form class="container">
-  <div class="row">
-    <div class="six columns">
-      <label for="exampleEmailInput"> Send CodeUpforCancer an email!</label>
-      <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
-    </div>
-     <div class="six columns">
-      <label for="exampleRecipientInput">Want to work on a project?</label>
-      <select class="u-full-width" id="exampleRecipientInput">
-        <option value="Option 1">Have one in mind?</option>
-        <option value="Option 2">Need help looking?</option>
-        <option value="Option 3">Want to join our team?</option>
-      </select>
-      </div>
-    </div>
-
-  <label for="exampleMessage">Message</label>
-  <textarea class="u-full-width" placeholder="Hello World" id="exampleMessage"></textarea>
-  
-  <input class="button-primary" type="submit" value="Submit">
-</form>
-
-  
-  </body>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> 
-      <script src="main.js">
-        </script>
-        </script>
-
-  <footer class="container">
+    
+    <head>   
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <link rel="stylesheet" href="CSS/main.css">
+    </head>
+                                  <!-- This is my Dropdown Menu -->
   <div class="nav">
-  <ul class="pull-left">
-  <p> CodeUpfor Cancer 2015 </p>
-  </footer>
+  <div class="dropdown">
+    <button class="btn btn-primary btn-lg dropdown-toggle" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home
+      <span class="caret"></span>
+    </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Donate</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </div>
 
+<div class="jumbotron">
+
+  <div class="container">
+    <ul class="pull-right">
+      <h1>#CodeUpforCancer</h1>
+        <p>The more you contribute to an open source projects, the more your partner donates.</p>
+          <button class="btn btn-danger" class="btn btn-lg">Get Involved</button>  
+  </div>
+</div> 
+                         <!-- This is my tables and lists for top contributors/projects-->
+  <div class="sign-up">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <h2>Top Contributors</h2>
+            <p>This is a paragraph where a list of the top five contributors will be shown.</p>
+
+<div class="bs-example">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>GitHub User Name</th>
+      </tr>
+    </thead>
+ <tbody>
+  <tr>
+    <td>1</td>
+    <td>Steven</td>
+    <td>Davis</td>
+    <td>Sgdavis1</td>
+  </tr>
+<tr>
+  <td>2</td>
+  <td>Sarah </td>
+  <td>Binder</td>
+  <td>Saraebinder</td>
+</tr>
+  <tr>
+    <td>3</td>
+    <td>JoAnne</td>
+    <td>SeeBerger</td>
+    <td>jpseeberger</td>
+  </tr>
+  </tbody>
+ </table>
+</div>
+
+<button type="button" class="btn btn-primary">View More</button>
+  </div>
+    <div class ="six columns">
+      <h2>Top Projects</h2>
+        <p>This paragraph will show the projects that have the most people contributing.</p>
+          <div class="bs-example">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>GitHub User Name</th>
+                </tr>
+              </thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Steven</td>
+    <td>Davis</td>
+    <td>Sgdavis1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Sarah </td>
+    <td>Binder</td>
+    <td>Saraebinder</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>JoAnne</td>
+    <td>SeeBerger</td>
+    <td>jpseeberger</td>
+  </tr>
+</tbody>
+</table>
+</div>
+  <button type="button" class="btn btn-primary">View More</button>
+</div>
+</div>
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="main.js"</script>
+
+
+<footer>TEST </footer>
+</body>
 </html>
