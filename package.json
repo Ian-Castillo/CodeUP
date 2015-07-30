@@ -1,5 +1,6 @@
 {
-  "dependencies":
-  {
-"express": "latest"
+  "dependencies": {
+    "express": "latest",
+    "swig": "^1.4.2"
+  }
 }

@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    
-    <head>   
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-     <link rel="stylesheet" href="CSS/main.css">
-    </head>
+{% extends 'layout.swig' %}
 
-                                  <!-- This is my Dropdown Menu -->
+{% block content %}
+  <!-- This is my Dropdown Menu -->
   <div class="nav">
   <div class="dropdown">
     <button class="btn btn-primary btn-lg dropdown-toggle" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home
@@ -21,7 +15,7 @@
       </ul>
     </div>
   </div>
-    <a href="#" class="pull-left"><img src="/public/Codeup-logo.png"></a>
+    <a href="#" class="pull-left"><img src="/Codeup-logo.png"></a>
 
 
 <div class="jumbotron">
@@ -75,7 +69,7 @@ Learn More</button>
  <tbody>
   <tr>
     <td>1</td>
-    <td>Steven</td>
+    <td>Steven</td>d
     <td>Davis</td>
     <td>Sgdavis1</td>
   </tr>
@@ -116,8 +110,7 @@ Learn More</button>
     <td>5</td>
     <td>SymCode</td>
     <td>
-     <div class="progress">
-     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 20em;">55%
+     <div class="progress" data-percent="72">
      </div>
   </td>
   </tr>
@@ -126,8 +119,8 @@ Learn More</button>
     <td>1 </td>
     <td></td>
     <td>
-      <div class="progress">
-     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10em;">45%
+      <div class="progress" data-percent="15">
+     <!-- <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10%;">15% -->
      </div>
     </td>
   </tr>
@@ -136,8 +129,8 @@ Learn More</button>
     <td>1</td>
     <td></td>
     <td>
-      <div class="progress">
-     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10em;">45%
+      <div class="progress" data-percent="15">
+  <!--    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10em;">45% -->
      </div>
     </td>
   </tr>
@@ -149,43 +142,4 @@ Learn More</button>
 </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-md-offset-4">
-            <div class="account-wall">
-                
-                <form class="form-signin">
-                <input type="text" class="form-control" placeholder="Email" required autofocus>
-                <input type="password" class="form-control" placeholder="Password" required>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">
-                    Sign in</button>
-                <label class="checkbox pull-left">
-                    <input type="checkbox" value="remember-me">
-                    Remember me
-                </label>
-                <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
-                </form>
-            </div>
-            <a href="#" class="text-center new-account">Create an account </a>
-        </div>
-    </div>
-</div>
-
-
-<div class = "navbar navbar-default navbar-fixed-bottom">
- <div class = "container">
-  <p class = "navbar-text pull-left">Built with love and confusion by Ian Castillo 2015</p>
-    <a href ="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class = "navbar-btn btn-danger btn pull-right">Don't Click Me </a>
-    </div
-    </div>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="main.js"</script>
-
-
- 
-
-
-</body>
-</html>
+{% endblock %}
