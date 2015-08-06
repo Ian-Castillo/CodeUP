@@ -23,10 +23,9 @@
     <ul class="pull-right">
       <h1>#CodeUpforCancer</h1>
         <p>The more you contribute to an open source projects, the more your partner donates.</p>
-          <button class="btn btn-danger btn-lg" href="#"role="button">Get Involved</button> 
- <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-Learn More</button>
+          <button class="btn btn-danger btn-lg" href="#"role="button">Get Involved</button>  
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Learn More</button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -69,7 +68,7 @@ Learn More</button>
  <tbody>
   <tr>
     <td>1</td>
-    <td>Steven</td>d
+    <td>Steven</td>
     <td>Davis</td>
     <td>Sgdavis1</td>
   </tr>
