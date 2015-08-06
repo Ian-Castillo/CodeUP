@@ -2,5 +2,12 @@
   "dependencies": {
     "express": "latest",
     "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-plumber": "^1.0.1"
   }
 }
