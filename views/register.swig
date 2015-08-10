@@ -12,7 +12,7 @@
                 <h3 class="dark-grey">Registration</h3>
                 
                 <div class="form-group col-lg-12">
-                    <label>Username</label>
+                    <label>UserName (Email)</label>
                     <input type="" name="" class="form-control" id="" value="">
                 </div>
                 
