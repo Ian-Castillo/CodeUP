@@ -2,11 +2,15 @@
 <html>
   <head>   
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-   <link rel="stylesheet" href="CSS/main.css">
+   <link rel="stylesheet" href="/CSS/main.css">
   </head>
   <body>
  
     {% block content %}{% endblock %}
+
+
+
+
 
     <div class = "navbar navbar-default navbar-fixed-bottom">
      <div class = "container">

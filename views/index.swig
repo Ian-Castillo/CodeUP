@@ -1,7 +1,7 @@
 {% extends 'layout.swig' %}
-
+ 
 {% block content %}
-  <!-- This is my Dropdown Menu -->
+<!-- This is my Dropdown Menu -->
   <div class="nav">
   <div class="dropdown">
     <button class="btn btn-primary btn-lg dropdown-toggle" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home
@@ -11,20 +11,19 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">Store</a></li>
         <li><a href="#">Donate</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#">Abut</a></li>
       </ul>
     </div>
   </div>
     <a href="#" class="pull-left"><img src="/Codeup-logo.png"></a>
-
 
 <div class="jumbotron">
   <div class="container">
     <ul class="pull-right">
       <h1>#CodeUpforCancer</h1>
         <p>The more you contribute to an open source projects, the more your partner donates.</p>
-          <button class="btn btn-danger btn-lg" href="#"role="button">Get Involved</button>  
-          <!-- Button trigger modal -->
+          <button class="btn btn-github btn-lg" href="#"role="button">Get Involved</button>  
+<!-- Button trigger modal -->
           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Learn More</button>
 
 <!-- Modal -->
@@ -47,7 +46,7 @@
 </div>
 </div>
 </div> 
-                         <!-- This is my tables and lists for top contributors/projects-->
+<!-- This is my tables and lists for top contributors/projects-->
   <div class="sign-up">
     <div class="container">
       <div class="row">
@@ -119,7 +118,7 @@
     <td></td>
     <td>
       <div class="progress" data-percent="15">
-     <!-- <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10%;">15% -->
+<!-- <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10%;">15% -->
      </div>
     </td>
   </tr>
@@ -129,7 +128,7 @@
     <td></td>
     <td>
       <div class="progress" data-percent="15">
-  <!--    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10em;">45% -->
+  <!-- <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="min-width: 10em;">45% -->
      </div>
     </td>
   </tr>

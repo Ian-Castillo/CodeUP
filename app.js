@@ -2,8 +2,12 @@ var http = require('http');
 var express = require('express');
 var swig = require('swig');
 var app = express();
+var session = require('express-session');
+var githubAuth = require('./githubauth')
 
 // Setup static file serving
+app.use(session({secret:'CHANGEME'}))
+app.use(githubAuth)
 app.use(express.static('public'));
 // Adding Swig as a Templating Engine
 app.engine('swig', swig.renderFile);
