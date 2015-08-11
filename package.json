@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "express": "latest",
+    "express-session": "^1.11.3",
+    "octonode": "^0.7.1",
     "swig": "^1.4.2"
   },
   "devDependencies": {
