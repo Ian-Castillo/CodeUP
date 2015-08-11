@@ -30,14 +30,14 @@
                     <label>Email Address</label>
                     <input type="" name="" class="form-control" id="" value="">
                 </div>
-                
-                <div class="form-group col-lg-6">
-                    <label>Repeat Email Address</label>
-                    <input type="" name="" class="form-control" id="" value="">
-                </div>          
+        
                 
                 <div class="col-sm-6">
                     <input type="checkbox" class="checkbox" />Donor
+                </div>
+
+                <div class="col-sm-6">
+                    <input type="checkbox" class="checkbox" />Both
                 </div>
 
                 <div class="col-sm-6">

@@ -22,7 +22,7 @@
     <ul class="pull-right">
       <h1>#CodeUpforCancer</h1>
         <p>The more you contribute to an open source projects, the more your partner donates.</p>
-          <a href="register.swig" <button class="btn btn-github btn-lg" href="#"role="button">Get Involved</button>  
+          <a href="/register" <button class="btn btn-danger btn-lg" role="button">Get Involved</a>  
 <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Learn More</button>
 

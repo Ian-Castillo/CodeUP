@@ -58,6 +58,9 @@ app.get('/', function (req, res){
   res.render('index', {});
 });
 
+app.get('/register', function (req, res){
+  res.render('register', {});
+});
 
 // Listen on port 8000, IP defaults to 127.0.0.1
 server = app.listen(3000);
