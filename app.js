@@ -5,9 +5,11 @@ var app = express();
 var session = require('express-session');
 var githubAuth = require('./githubauth')
 
+var db = require('./Database/bootstrap.js');
+
 // Setup static file serving
 app.use(session({secret:'CHANGEME'}))
-app.use(githubAuth)
+//app.use(githubAuth);
 app.use(express.static('public'));
 // Adding Swig as a Templating Engine
 app.engine('swig', swig.renderFile);
@@ -58,11 +60,18 @@ app.get('/', function (req, res){
   res.render('index', {});
 });
 
+// Show the registration form
 app.get('/register', function (req, res){
   res.render('register', {});
 });
 
-// Listen on port 8000, IP defaults to 127.0.0.1
+// Read data from the registration form
+app.post('/register', function (req, res){
+  res.send("You registered");
+});
+
+
+// Listen on port 3000, IP defaults to 127.0.0.1
 server = app.listen(3000);
 
 // Put a friendly message on the terminal
