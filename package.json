@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "body-parser": "^1.13.3",
     "express": "latest",
     "express-session": "^1.11.3",
     "octonode": "^0.7.1",

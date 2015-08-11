@@ -10,24 +10,19 @@
                 
                 <div class="form-group col-lg-12">
                     <label>UserName (Email)</label>
-                    <input type="" name="" class="form-control" id="" value="">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email address as your Username">
                 </div>
                 
                 <div class="form-group col-lg-6">
                     <label>Password</label>
-                    <input type="password" name="" class="form-control" id="" value="">
+                    <input type="password" class="form-control" name="password" id="password">
                 </div>
                 
                 <div class="form-group col-lg-6">
                     <label>Repeat Password</label>
-                    <input type="password" name="" class="form-control" id="" value="">
+                    <input type="password" class="form-control" name="confirm-password" id="confirm-password">
                 </div>
                                 
-                <div class="form-group col-lg-6">
-                    <label>Email Address</label>
-                    <input type="" name="" class="form-control" id="" value="">
-                </div>
-        
                 
                 <div class="col-sm-6">
                     <input type="checkbox" class="checkbox" />Donor

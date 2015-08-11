@@ -3,12 +3,15 @@ var express = require('express');
 var swig = require('swig');
 var app = express();
 var session = require('express-session');
+var bodyParser = require('body-parser');
 var githubAuth = require('./githubauth')
 
 var db = require('./Database/bootstrap.js');
 
 // Setup static file serving
 app.use(session({secret:'CHANGEME'}))
+// Setup POST form data processing
+app.use(bodyParser.urlencoded({ extended: false }))
 //app.use(githubAuth);
 app.use(express.static('public'));
 // Adding Swig as a Templating Engine
@@ -67,6 +70,10 @@ app.get('/register', function (req, res){
 
 // Read data from the registration form
 app.post('/register', function (req, res){
+  // TODO: Insert data into database
+  console.log(req.body.email);
+  console.log(req.body.password);
+  console.log(req.body['confirm-password']);
   res.send("You registered");
 });
 
