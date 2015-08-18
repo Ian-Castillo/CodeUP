@@ -35,6 +35,12 @@
   color: #fff;
 }
 
+.jumbotron ul {
+  background-color: rgba(0,0,0,.5);
+  padding: 10px 60px;
+}
+
+
 .sign-up {
   background-color: #f7f7f7;
 }
@@ -150,13 +156,3 @@
     margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-  
-}

@@ -1,28 +1,27 @@
-<!DOCTYPE html>
-<html>
-  <head>   
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-   <link rel="stylesheet" href="/CSS/main.css">
-  </head>
-  <body>
- 
-    {% block content %}{% endblock %}
+{% extends 'layout.swig' %}
+
+{% block content %} 
+
+<div class="col-xs-12 col-sm-4">
+  <figure>
+    <img class="img-circle img-responsive" alt="" src="http://placehold.it/300x300">
+  </figure>
+</div>
+
+<div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+</div>
+
+<div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Charity" aria-describedby="sizing-addon1">
+</div>
 
 
 
+   
+</body>
 
 
-    <div class = "navbar navbar-default navbar-fixed-bottom">
-     <div class = "container">
-      <p class = "navbar-text pull-left">Built with love and confusion by Ian Castillo 2015</p>
-        <button type="button" class = "navbar-btn btn-danger btn pull-right">Maybe a Contact Button?</button>
-        </button>
-      </div>
-    </div>
-    </div>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="/js/main.js"></script>
-  </body>
-</html>
+{% endblock %}

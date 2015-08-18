@@ -10,7 +10,7 @@
 
     <div class = "navbar navbar-default navbar-fixed-bottom">
      <div class = "container">
-      <p class = "navbar-text pull-left">Built with love and confusion by Ian Castillo 2015</p>
+      <p class = "navbar-text pull-left">Built with  and confusion by Ian Castillo 2015</p>
         <button type="button" class = "navbar-btn btn-danger btn pull-right">Maybe a Contact Button?</button>
         </button>
       </div>
