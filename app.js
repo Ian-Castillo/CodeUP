@@ -1,13 +1,21 @@
 var http = require('http');
 var express = require('express');
 var swig = require('swig');
-var app = express();
 var session = require('express-session');
 var bodyParser = require('body-parser');
+
+// Local modules
 var githubAuth = require('./githubauth')
+var config = require('./config');
+var db = require('./db')(config);
 
-var db = require('./Database/bootstrap.js');
 
+// Setup our Express Server
+var app = express();
+app.locals.db = db;
+app.locals.config = config;
+
+// Configure the server
 // Setup static file serving
 app.use(session({secret:'CHANGEME'}))
 // Setup POST form data processing
@@ -47,8 +55,9 @@ app.post('/register', function (req, res){
 });
 
 
-// Listen on port 3000, IP defaults to 127.0.0.1
-server = app.listen(3000);
+// Listen on our configured port and IP
+server = app.listen(config.port, config.ip);
 
 // Put a friendly message on the terminal
-console.log("Express Server, with static files middleware running at http://127.0.0.1:3000/");
+console.log(config.name + ' started [ip:' + config.ip + ', port:' + config.port +
+    ', data_dir: "' + config.data_dir + '"]');
