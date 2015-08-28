@@ -6,7 +6,6 @@
 <!-- This is my Dropdown Menu -->
 <div class="jumbotron">
   <div class="containe">
-    <a href="#"> <img alt="FUTURE LOGO" src="/">
       <ul class="pull-right">
         <h1>#CodeUpforCharity</h1>
         <p>The more you contribute to an open source projects, the more your partner donates.</p>

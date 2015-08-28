@@ -12,12 +12,12 @@
 
 <div class = "navbar navbar-default navbar-fixed-bottom">
   <div class = "container">
-    <p class = "navbar-text pull-left">Built with love and confusion by Ian Castillo 2015</p>
+    <p class = "navbar-text pull-left">Ian Castillo 2015</p>
       <div class="container">
       <div class="pull-right">
-<a href="https://www.facebook.com/bootsnipp"><i id="social" class="fa fa-github-square fa-3x"></i></a>
-<a href="https://twitter.com/bootsnipp"><i id="social" class="fa fa-twitter-square fa-3x"></i></a>
-<a href="mailto:bootsnipp@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x"></i></a>
+        <a href="https://github.com/ncstll/CodeUP"><i id="social" class="fa fa-github-square fa-3x"></i></a>
+        <a href="https://twitter.com/Ian_Castillo"><i id="social" class="fa fa-twitter-square fa-3x"></i></a>
+        <a href="mailto:i.michaelcastillo@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x"></i></a>
       </div>
       </div>
 
