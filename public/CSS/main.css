@@ -1,3 +1,10 @@
+/*Skeleton override*/
+@media (min-width: 550px) {
+  .columns {
+    margin-left: 2% !important;
+  }
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 16px;
@@ -155,4 +162,3 @@
     display: block;
     margin-top: 10px;
 }
-
